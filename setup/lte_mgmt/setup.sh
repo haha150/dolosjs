@@ -37,7 +37,7 @@ systemctl daemon-reload
 
 #install Node.js deps
 cd ../../
-npm install
+npm install --unsafe-perm=true --unsafe-perm
 
 echo "All set up! Check that your callback is working"
 echo "I mean seriously test this to make sure you don't brick the box and have to start over"
